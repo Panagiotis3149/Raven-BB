@@ -7,8 +7,8 @@ import net.minusmc.ravenb4.setting.impl.SliderSetting
 
 
 class Spin: Module("Spin", ModuleCategory.funs){
-    private val yawSetting = SliderSetting("Rotation yaw", 360.0, 30.0, 360.0, 1.0)
-    private val speedSetting = SliderSetting("Speed", 25.0, 1.0, 80.0, 1.0)
+    private val yawSetting = SliderSetting("Rotation yaw", 360.0, 60.0, 360.0, 1.0)
+    private val speedSetting = SliderSetting("Speed", 50.0, 2.0, 160.0, 2.0)
 
     private var yaw = 0f
 
