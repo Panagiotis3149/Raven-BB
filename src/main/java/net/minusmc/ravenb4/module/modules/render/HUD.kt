@@ -7,6 +7,6 @@ import net.minusmc.ravenb4.setting.impl.TickSetting
 import org.lwjgl.input.Keyboard
 
 
-class HUD: Module("HUD", ModuleCategory.render) {
+class HUD: Module("Interface", ModuleCategory.render) {
     val alphabetSort = TickSetting("Alphabetical sort", false)
 }
